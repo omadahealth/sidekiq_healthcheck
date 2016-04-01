@@ -2,7 +2,7 @@ module SidekiqHealthcheck
   class QueueController < ActionController::Base
 
     def index
-      render json: queue_latencies
+      render json: queue_latencies, :root => false
     end
 
     protected
