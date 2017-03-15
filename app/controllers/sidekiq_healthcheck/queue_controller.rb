@@ -12,7 +12,7 @@ module SidekiqHealthcheck
         {
           name: x.name,
           latency: x.latency,
-          count: x.count
+          count: x.size
         }
       end
     end
